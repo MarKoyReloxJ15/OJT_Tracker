@@ -1,0 +1,38 @@
+.outer-div {
+    width: 50%;
+    height: 40px;
+    background-color: #f0f0f0; /* Grey background for the outer div */
+    border-radius: 5px;
+    margin: 50px auto; /* Centering the loading bar */
+  }
+
+  .inner-div {
+    height: 100%;
+   
+    background-color: #4CAF50; /* Green color for completed portion */
+    border-radius: 5px;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+
+  tr:hover{
+    background-color: rgb(158, 212, 194,0.6);
+  }
+
+  th {
+    background-color: #f2f2f2;
+  }
+
+  .loadingBarP{
+     text-align: center;
+  }
